@@ -1,0 +1,70 @@
+
+
+.recipe-card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.recipe-details {
+  flex: 1;
+}
+
+.recipe-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recipe-ingred {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.ingredient-list {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.recipe-desc {
+  font-size: 14px;
+}
+
+.recipe-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.delete,
+.update {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 14px;
+}
+
+.addHome {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+}
